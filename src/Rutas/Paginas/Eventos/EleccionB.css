@@ -1,0 +1,33 @@
+.ticket-selection-container {
+    text-align: center;
+  }
+  
+  .ticket-options {
+    margin-bottom: 20px;
+  }
+  
+  .ticket {
+    margin-right: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .selected-ticket {
+    margin-right: 10px;
+    padding: 10px;
+    border: 2px solid blue;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .buy-button {
+    padding: 10px 20px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  

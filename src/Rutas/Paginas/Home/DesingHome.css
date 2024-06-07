@@ -1,0 +1,235 @@
+/* JESUS Y OSCAR LE MOVIMOS A ESTO  */
+.event-image-container {
+  width: 100%;
+  margin-bottom: 20px; 
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+}
+
+.cont-image {
+  width: 100%;
+  height: 4000px; 
+  max-height: 100vh; 
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 40px;
+  transition: filter 0.3s ease; 
+}
+
+.cont-image-1 {
+  background-image: url('https://scontent.fyum1-1.fna.fbcdn.net/v/t39.30808-6/418159089_893969696062019_3898472676488133217_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeEfh78msEk6_r1WH5HBrLFzTsQiXodM2jxOxCJeh0zaPNrBVNw64ocza9y2AObHmTP2ChK66xnGhq7GMblmKrK6&_nc_ohc=vi5Bbk1uPmwQ7kNvgFqttC_&_nc_ht=scontent.fyum1-1.fna&oh=00_AYBNOn3PLUykNQAWRP_MKUoDXX6t2S2uAUBANGOFDIL5ew&oe=66615CED');
+}
+
+.cont-image-2 {
+  background-image: url('https://scontent.fyum1-1.fna.fbcdn.net/v/t39.30808-6/379165266_816283633830626_3681981554040508259_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeHsOAu9aWs2n2_UTrmDWLl58Hl2NSlHrefweXY1KUet57kgUiDeMJdTHDpeC0x5bV4mayOENRP0EFkSALelW8uX&_nc_ohc=U8Xz6h64H0cQ7kNvgF87qLU&_nc_ht=scontent.fyum1-1.fna&oh=00_AYDQXbMB9roMmYBJP62ZWSQACKInVdQm7iejQ4e5RtxD0w&oe=66614CF5');
+}
+
+.cont-image-3 {
+  background-image: url('https://scontent.fyum1-1.fna.fbcdn.net/v/t39.30808-6/447011131_989860503139604_2150751453814594368_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeHXblgDSqZKsljge2ol3SjqLYot6VhKsf0tii3pWEqx_Z_-UNCX4T6KtGFtQdHMGrwrXbwkNCZ4jMRoYawUlBRR&_nc_ohc=5p64yiaxCn0Q7kNvgHBYh0V&_nc_ht=scontent.fyum1-1.fna&oh=00_AYC3-liuqVfuQLFwS1rEZkx2UnoZ_FqlitB1dn0iZG-Rkg&oe=666198C0');
+}
+
+.cont-image-4 {
+  background-image: url('https://scontent.fyum1-1.fna.fbcdn.net/v/t39.30808-6/432369640_1507738553124875_8814302761295019077_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeHesP-PVR5yn9gul9MdkZjenxj5urxHtGqfGPm6vEe0aos4DX_d4G6QUXZSTNnrOOxbp_69CMWhQ6KnwUzqecdm&_nc_ohc=BmxNbOsweAEQ7kNvgHo-R_z&_nc_ht=scontent.fyum1-1.fna&oh=00_AYDh8FQNmzi0IuoNQz4PW9pk5FDkvOWse6_bv_ew93fwOg&oe=66615540');
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 200vh;
+  margin-top: 30vh; 
+}
+
+.event-box {
+  background-color: #00000083;
+  border-radius: 15px;
+  padding: 40px;
+  text-align: center;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  max-width: 600px;
+  width: 80%;
+  margin-bottom: 20px; 
+}
+
+.event-title {
+  font-size: 32px;
+  color: rgb(255, 255, 255);
+  padding: 15px;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+.buy-tickets-button {
+  padding: 15px 30px;
+  font-size: 20px;
+  background-color: #d2b48c;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.buy-tickets-button:hover {
+  background-color: #c49b6c;
+}
+
+.bottom-box {
+  background-color: rgba(255, 255, 255, 0.425);
+  padding: 20px;
+  border-radius: 25px;
+  margin: 0 auto; 
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 80%;
+}
+
+.image-cont {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.bottom-box1 {
+  background-color: rgb(255, 255, 255);
+  padding: 20px;
+  border-radius: 15px;
+  margin: 20px auto; 
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 90%;
+  max-width: 40000px; 
+  position: relative; 
+}
+
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap:
+10px;
+  margin-top: 20px;
+}
+
+.view-tickets-button,
+.view-more-button {
+  padding: 15px 30px; 
+  font-size: 18px; 
+  background-color: #d2b48c;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin: 10px;
+  transition: background-color 0.3s; 
+}
+.past-events {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  margin-top: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+.image-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.event-image {
+  width: 150px;
+  margin: 0 10px;
+}
+.bottom-buttons {
+  position: absolute;
+  top: 100px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.view-tickets-button:hover,
+.view-more-button:hover {
+  background-color: #c49b6c; 
+}
+
+.past-events {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  margin-top: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.cont-image.cont-image-past-1 {
+  background-image: url('https://scontent.fyum1-1.fna.fbcdn.net/v/t39.30808-6/285698945_745126376913385_2117520296820107390_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeGRA9B0ko4K-RRLXfecI1RX48ZjlUkgcJXjxmOVSSBwlXvieovNlLssV8P42NxqHmkX8uDv68EloBPwcpePVs2J&_nc_ohc=edycwf_8umsQ7kNvgGlYjJX&_nc_ht=scontent.fyum1-1.fna&oh=00_AYDJb6IxHugmN6ifzEw1gtvqNYwMpc33gqllf5H14tiJgQ&oe=666145AB');
+}
+
+.cont-image.cont-image-past-2 {
+  background-image: url('https://scontent.fyum1-1.fna.fbcdn.net/v/t39.30808-6/289675601_758540702238619_7674868691538114858_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeGtAWv-6zReEvGjvp8HuCrwYnY0Twq0IQBidjRPCrQhAOwVpzU6YKNXELWXDX1umDP5PZAcUpNDcsWUXSG2padb&_nc_ohc=d-RcNa_NZwwQ7kNvgExTwt4&_nc_ht=scontent.fyum1-1.fna&oh=00_AYBnTVmH95N9fhFRo-UvcaMridS66uT3rCRw7wRC592lmg&oe=666143D0');
+}
+
+.cont-image.cont-image-past-3 {
+  background-image: url('https://scontent.fyum1-1.fna.fbcdn.net/v/t39.30808-6/383833490_823507023108287_6822349688749587067_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeE7XsjpHXBDMP9HBVv6PBuakxZYsGfIweGTFliwZ8jB4b-3VAjMaDGb9t92ZZHtPohodNaQHor1KtslxXpyXeXZ&_nc_ohc=nlXB2x37esQQ7kNvgFPF8u8&_nc_ht=scontent.fyum1-1.fna&oh=00_AYD93-LCRVbxCXHOWWZorktRq8pywBEAkkev9eATiiNvsQ&oe=66615A00');
+}
+
+.cont-image.cont-image-past-4 {
+  background-image: url('https://scontent.fyum1-1.fna.fbcdn.net/v/t39.30808-6/311779266_556172206508438_2567700254284047779_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeEsf_YlTytVH5RUpFzTwCQNJD3pY621-h4kPeljrbX6Hi_Qf6pgPySSVb5lD4pMYy9ugW4e9Nq_TzTVUzB7PjVa&_nc_ohc=Ogc955EFAWAQ7kNvgFmi49A&_nc_ht=scontent.fyum1-1.fna&oh=00_AYAn-bEidz5N1z7SgsFe6T5B0R5Tp3Jbml4DD2lynCnQ8Q&oe=6661532A');
+}
+.cont-image:hover {
+  filter: brightness(70%); 
+}
+
+
+.footer {
+  background-color: #000000;
+  color: rgb(255, 255, 255);
+  font-weight: bold; 
+  padding: 20px;
+  text-align: center;
+  position: static;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-info {
+  text-align: left;
+}
+
+.footer-info p {
+  margin: 5px 0;
+}
+
+.facebook-icon {
+  width: 70px; 
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+}
+
+.content {
+  flex: 1;
+}

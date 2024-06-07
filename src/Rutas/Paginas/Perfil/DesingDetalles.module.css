@@ -1,0 +1,52 @@
+/* DesingDetalles.module.css */
+
+.container {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+form {
+  margin-bottom: 30px;
+}
+
+form div {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+button {
+  background-color: #c49b6c; 
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  display: block;
+  width: 100%;
+}
+
+button:hover {
+  background-color: #a37c55; 
+}

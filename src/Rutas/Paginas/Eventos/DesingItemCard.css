@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+body {
+  background-image: url('https://media.istockphoto.com/id/1337977426/es/foto/gris-oscuro-y-negro-grunge-cemento-pared-estudio-espacio-espacio-de-producto-plantilla-de-fondo.jpg?s=612x612&w=0&k=20&c=wsmD1kAo482wFZRqMd-vABkPmFGPYtIdkDDAXRwmaqU=');
+  background-size: cover;
+  background-position: center;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+h2 {
+  font-family: 'Impact', sans-serif; /* Cambio de fuente a Impact */
+  font-weight: bold; /* Hace que las letras sean más gruesas */
+  color: #c49b6c; /* Color para coincidir con el estilo original */
+  margin-top: 0;
+}
+
+/* El resto de tus estilos permanecen iguales */
+
+
+.ItemCardContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.ItemCardWrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.ItemCard {
+  display: flex;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 1000px;
+  padding: 20px;
+}
+
+.ImageWrapper {
+  flex-shrink: 0;
+}
+
+.ItemCardImage {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  border: 2px solid black;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.ItemCardDetails {
+  flex-grow: 1;
+  text-align: left;
+  padding-left: 20px;
+}
+
+h2 {
+  color: #c49b6c;
+  margin-top: 0;
+}
+
+p {
+  margin: 10px 0;
+}
+
+.TicketOptions {
+  margin-top: 20px;
+}
+
+.TicketOption {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.TicketOption label {
+  margin-right: 10px;
+}
+
+.CountControl {
+  display: flex;
+  align-items: center;
+}
+
+.CountButton {
+  background-color: #c49b6c;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 5px 10px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.CountButton:hover {
+  background-color: #a57b4a;
+}
+
+.CountInput {
+  width: 40px;
+  text-align: center;
+  margin: 0 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.TotalTickets {
+  margin-bottom: 20px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.DetailButton, .ActionButton {
+  background-color: #c49b6c;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 150px;
+  margin: 0 10px;
+}
+
+.DetailButton:hover, .ActionButton:hover {
+  background-color: #a57b4a;
+}
+
+.ItemCardButtons {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.Details {
+  background-color: rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 10px;
+  text-align: left;
+}

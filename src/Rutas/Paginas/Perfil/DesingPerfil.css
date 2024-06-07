@@ -1,0 +1,92 @@
+.PerfilContainer {
+    text-align: center;
+    padding: 70px;
+    background-color: #eeeeeed5;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.Perfil h1 {
+    font-size: 35px;
+    margin-bottom: 30px;
+    color: #000000;
+}
+
+.dropdowns {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 30px;
+}
+
+.DropdownMenu {
+    background-color: #ffffffdd;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 0 10px;
+}
+
+.DropdownItem {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #333;
+}
+
+.DropdownItem a {
+    color: #333;
+    text-decoration: none;
+}
+
+.DropdownItem a:hover {
+    color: #000000;
+}
+
+.dropdown-toggle {
+    background-color: #c49b6c !important;
+    color: #fff !important;
+    border: none !important;
+    border-radius: 4px;
+    padding: 10px 20px !important;
+    font-size: 16px !important;
+    cursor: pointer;
+    transition: background-color 0.3s ease !important;
+    margin-top: 20px !important;
+}
+
+.dropdown-toggle:hover {
+    background-color: #a57b4a !important;
+}
+
+.cerrarSesionButton {
+    background-color: #c49b6c;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+}
+
+.cerrarSesionButton:hover {
+    background-color: #a57b4a;
+}
+
+#dropdownBoletos {
+    margin-bottom: 50px;
+}
+
+#dropdownDetalles {
+    margin-bottom: 50px;
+}
+
+.separator {
+    width: 100%;
+    height: 1px;
+    background-color: #00000099;
+    margin: 3px 10px;
+}
